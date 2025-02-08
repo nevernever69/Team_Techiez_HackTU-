@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "noEmit": true,            // Prevent emitting output
+    "skipLibCheck": true,     // Skip type checking of all declaration files (.d.ts)
+    "strict": false,          // Disable all strict type checking options
+    "noImplicitAny": false,   // Allow expressions and declarations to have an 'any' type
+    "ignoreDeprecations": "5.0"
+  }
+}
